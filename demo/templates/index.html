@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Forms</h1>
+<ul>
+    <li><a href="{{ url_for('pure_html')}}">pure_login</a></li>
+    <li><a href="{{ url_for('basic_login')}}">basic-login</a></li>
+    <li><a href="{{ url_for('bootstrap')}}">bootstrap-login</a></li>
+    <li><a href="{{ url_for('upload')}}">upload</a></li>
+</ul>
+{% endblock %}

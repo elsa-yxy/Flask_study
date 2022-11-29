@@ -1,0 +1,71 @@
+[[source]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+verify_ssl = true
+name = "pypi"
+
+[[source]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+verify_ssl = true
+name = "pypitunatsinghuaedu"
+
+[[source]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+verify_ssl = true
+name = "pypitunatsinghuaedu"
+
+[[source]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+verify_ssl = true
+name = "pypitunatsinghuaedu"
+
+[[source]]
+url = "https://pypi.douban.com/simple"
+verify_ssl = true
+name = "pypidouban"
+
+[[source]]
+url = "https://pypi.douban.com/simple"
+verify_ssl = true
+name = "pypidouban"
+
+[[source]]
+url = "https://pypi.douban.com/simple"
+verify_ssl = true
+name = "pypidouban"
+
+[[source]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+verify_ssl = true
+name = "pypitunatsinghuaedu"
+
+[[source]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+verify_ssl = true
+name = "pypitunatsinghuaedu"
+
+[[source]]
+url = "https://pypi.douban.com/simple"
+verify_ssl = true
+name = "pypidouban"
+
+[[source]]
+url = "https://pypi.douban.com/simple"
+verify_ssl = true
+name = "pypidouban"
+
+[[source]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+verify_ssl = true
+name = "pypitunatsinghuaedu"
+
+[packages]
+flask = {version = "*", index = "pypidouban"}
+flask-wtf = {version = "*", index = "pypitunatsinghuaedu"}
+flask-ckeditor = {version = "*", index = "pypidouban"}
+wtforms = {extras = ["email"], version = "*", index = "pypidouban"}
+flask-sqlalchemy = {version = "*", index = "pypitunatsinghuaedu"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"
